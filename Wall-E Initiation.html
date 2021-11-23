@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wall-E Initiation</title>
+    <link rel="stylesheet" type="text/css" href="Wall-E.css">
+    <div id="title">
+        <h2>Wall-E Monomyth <img src ="Photos-Wall/capsule_616x353.jpg" width="250" height="100" align="center"></h2>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div id="menubar">
+        <ul id="menulist">
+            <li class="menuitem"><a href="Wall-E.html">Home Page</a></li>
+            <li  class="menuitem"><a href="Wall-E Cycle.html">Wall-E Monomyth Cyle</a></li>
+            <li class="menuitem"><a href="Wall-E Separation.html">Wall-E Separation Phase</a></li>
+            <li class="menuitem"><a href="Wall-E Initiation.html">Wall-E Initiation Phase</a></li>
+            <li class="menuitem"><a href="Wall-E Return.html">Wall-E Return Phase</a></li>
+        </ul>
+    </div>
+</div>
+<div>
+    <p></p>
+</div>
+<div>
+    <h2 id="h26">5.Road of Trials</h2>
+    <p id="p1">There are lots of trials Wall-E has faced in the movie. Wall-e’s road of trial scenes starts from the escaping from robots. As he was seen as the starter of rebellion amongst broken robots, this was seen as a great threat amongst other robots. Their photos were all around the spaceship in a caution title. Wall-E and Eve must escape from these robots. His task became more compelling than the first one. The second trial was saving himself from the capsule that he locked in. This escaping capsule had a countdown for self-destruction function. By using a fire extinguisher, he saved himself from that capsule.The passed this hard task in this way. The third trial was the most harsh trial that Wall-e had faced. He fought back to the auto about not giving the plant. But unfortunately, he got injured by auto, and this injury was fatal for him. But when he and Eve were sent to dump, he wanted Eve to take the plant to the place where the plant should be.
+    </p>
+    <iframe id="mainvideo" width="560" height="315" src="https://www.youtube.com/embed/lokKpSrNqDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <div class="video">
+    <iframe id="youtubetrial" width="280" height="157.5" src="https://www.youtube.com/embed/rMQwFYOC_sI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="youtubetrial2" width="280" height="157.5" src="https://www.youtube.com/embed/p3A7vIcLL1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+    <h2 id="photoTrial">Photos</h2>
+    <div id="photo">
+    <img id="mainimage" src="Photos-Wall/kaçak robot.png" hight="290">
+    </div>
+    <div id="photoRoadOf">
+    <img class="img" id="photo2" src="Photos-Wall/yok et.png">
+    <img class="img" id="photo3" src="Photos-Wall/zarar.png">
+    <img class="img" id="photo4" src="Photos-Wall/bitki.png">
+    </div>
+
+
+
+<h2 id="h27">6.Meeting with the Goddess</h2>
+<p id="p2"> In the movie, the goddess is EVE.The appearance of the goddess is not sudden and does not rely on the Monomyth cycle. Eve does not appear suddenly in the movie but we saw her from the beginning of the movie. Actually she was the reason for Wall-E to attend this adventure. Eve was both mentor and goddess in the movie.</p>
+<iframe id="meeting"width="560" height="315" src="https://www.youtube.com/embed/NPW3mvAN0Rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="h28">7.Atonement with the Father</h2>
+<p id="p3">In the movie, there was one character who fit into the father description which was Auto.  Auto devoted himself to preventing spaceship from landing on Earth since he was given order that they all must stay in that spaceship forever. Even though there was a captain of the spaceship, he had all the power in the spaceship. While Wall-e and EVE were trying to complete the process of putting the plant, auto fought against them. Auto and captain fought in the pilot house. In that scene, Auto shows us that he has all the power of the spaceship by changing the direction of the rudder and he said “enough” in that scene. Auto pressed the button for closing the place where the plant must be in it. But in the other part, Wall-E resisted him. We saw their fight in that scene. Wall-E beat the Auto and the captain closed the Auto.
+</p>
+<p id="pvideo"><strong>Atonement with father and ultimate boon video</strong></p>
+<iframe id="youtubeFather" width="560" height="315" src="https://www.youtube.com/embed/pvMCeLQiCDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="h29">8.Ultimate Boon</h2>
+<p id="p4">The scene of resisting the Auto was ending with completing the plant mission. That was a great success. Wall-e saved everyone from a long-lasting captivity. Everybody was ready to go and start a colonization on the Earth which was the aim of building the spaceship. Wall-e’s success just was not putting plants to the place, he was also completing the major mission. He brought life again to the Earth and saved the people around him. Without his sacrifices this mission would not be completed.
+</p>
+<img id="ultimate" src="Photos-Wall/Ultimate%20boon.png">
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $('.img').on({
+            click: function () {
+                var URL = $(this).attr("src");
+                $("#mainimage").fadeOut(1000, function () {
+                    $(this).attr("src", URL);
+                }).fadeIn(1000);
+            },
+         });
+    });
+
+
+</script>
+</body>
+</html>

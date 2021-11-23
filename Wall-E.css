@@ -1,0 +1,177 @@
+body{
+    background-color: lightsteelblue;
+}
+#title{
+    color:whitesmoke;
+    background-color:darkblue;
+    font-family:Verdana,Arial Black,Lucida Console;
+    padding:2px;
+    margin:4px;
+}
+#titlephoto{
+    margin-left:100px;
+
+}
+.wrapper{
+    padding:2px;
+    margin:4px;
+}
+
+#menubar{
+    background-color:darkblue;
+    float:left;
+}
+.menuitem{
+    text-decoration:none;
+    list-side-type:none;
+    padding:2px;
+    margin:4px;
+}
+.menuitem a{
+     text-decoration:none;
+     color:white;
+    font-weight:bold;
+    padding:15px;
+ }
+#menulist{
+    padding:15px;
+}
+#p1{
+    font-size: 18px;
+    margin-left:300px;
+    margin-top: 30px;
+}
+#youtube{
+    margin-left:80px;
+}
+#p2{
+    font-size: 18px;
+    margin-left:300px;
+    margin-top: 30px;
+}
+#youtube1{
+    margin-left:300px;
+    margin-top: 20px;
+}
+#FP{
+    font-size: 18px;
+    margin-left:280px;
+    margin-top: 30px;
+}
+#p3{
+    font-size: 18px;
+    margin-left:300px;
+    margin-top: 30px;
+}
+#p4{
+    font-size: 18px;
+    margin-left:300px;
+    margin-top: 30px;
+}
+#youtube2{
+    margin-left:300px;
+    margin-top: 20px;
+}
+#p5{
+    font-size: 18px;
+    margin-left:300px;
+    margin-top: 30px;
+}
+#mainvideo{
+    margin-left:300px;
+    margin-top: 30px;
+}
+.video{
+    margin-left:300px;
+}
+#squid{
+    margin-left:280px;
+}
+#squidvideo{
+    margin-left:280px;
+}
+#h21{
+    margin-left:300px;
+}
+#h22{
+    margin-left:300px;
+}
+#h23{
+    margin-left:300px;
+}
+#h24{
+    margin-left:300px;
+}
+#h25{
+    margin-left:300px;
+}
+#h26{
+    margin-left:300px;
+}
+.img{
+    margin-left:300px;
+    height:100px;
+    weight:70px;
+    border: 3px solid rosybrown;
+    border-widht:thin;
+}
+#mainimage{
+    margin-left:300px;
+
+    border: 3px solid rosybrown;
+    border-widht:thin;
+}
+#photoTrial{
+    margin-left:300px;
+}
+#h27{
+    margin-left:300px;
+}
+#h28{
+    margin-left:300px;
+}
+#youtubeFather{
+    margin-left:300px;
+}
+#h29{
+    margin-left:300px;
+}
+#pvideo{
+    margin-left:300px;
+}
+#pvideo2{
+    margin-left:300px;
+}
+#ultimate{
+    margin-left:300px;
+    border: 3px solid rosybrown;
+    border-widht:thin;
+}
+#h3{
+    margin-left:300px;
+}
+#h31{
+    margin-left:300px;
+}
+#flightvideo{
+    margin-left:70px;
+}
+#h32{
+    margin-left:300px;
+}
+#photoreturn{
+    margin-left:300px;
+}
+#h33{
+    margin-left:300px;
+}
+#freedomvideo{
+    margin-left:300px;
+}
+#rescue{
+    margin-left:300px;
+}
+
+#meeting{
+    margin-left:300px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wall-E Return</title>
+    <link rel="stylesheet" type="text/css" href="Wall-E.css">
+    <div id="title">
+        <h2>Wall-E Monomyth <img src ="Photos-Wall/capsule_616x353.jpg" width="250" height="100" align="center"></h2>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div id="menubar">
+        <ul id="menulist">
+            <li class="menuitem"><a href="Wall-E.html">Home Page</a></li>
+            <li  class="menuitem"><a href="Wall-E Cycle.html">Wall-E Monomyth Cyle</a></li>
+            <li class="menuitem"><a href="Wall-E Separation.html">Wall-E Separation Phase</a></li>
+            <li class="menuitem"><a href="Wall-E Initiation.html">Wall-E Initiation Phase</a></li>
+            <li class="menuitem"><a href="Wall-E Return.html">Wall-E Return Phase</a></li>
+        </ul>
+    </div>
+</div>
+<h2 id="h3">9.The Magic Flight</h2>
+<p id="p1">When Eve put the plant to its place, the countdown had begun by the spaceship’s system automatically. The route was created and they turned back to the Earth within 10 seconds.
+</p>
+<iframe id="flightvideo" width="560" height="315" src="https://www.youtube.com/embed/nP6l6INN2rg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="h31">10.Rescue From Without</h2>
+<p id="p2">While Wall-e was fighting against the Auto, he had been injured unpleasantly. He was protecting the plant from Auto, but Auto was extremely mission-oriented. At the cost of killing the Wall-e, Auto broke down the Wall-e and threw it down the dump. Auto also did the same thing to the EVE. When EVE and Wall-e found each other in the dump, Wall-e’s system was not working properly. EVE tried to find another memory card, but unfortunately, she could not find one because Wall-e’s version was too old. Beyond these, Wall-e’s battery was almost dead. There was only one way to save him and that was going back to the Earth.
+    EVE helped Wall-e to get his energy full and she also found him a new card. For a while, he did not remember EVE and the adventure that they went through. EVE continued to help him regain his memory back. Eventually, she succeeded to bring Wall-E back to life.
+</p>
+
+<iframe id="rescue" width="560" height="315" src="https://www.youtube.com/embed/WrbjJoRS0vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<h2 id="h32">11.Crossing the Return Threshold</h2>
+<p id="p3">After being rescued from Auto and its protection policy, everybody was ready to settle down to the Earth again. After the magic flight, their spaceship landed on Earth. They crossed the return threshold. In this way, Wall-E came back to his own world with his new friends. </p>
+<img id="photoreturn" src="Photos-Wall/return%20.png">
+
+
+<h2 id="h33">12.Freedom to Live</h2>
+<p id="p4">When Eve fixed Wall-E, she changed his card and charged Wall-E. When he charged, first Wall-E did not remember anything. From the beginning of the movie, he tried to hold her hand but could not do it. In this scene, Eve held his hand and he remembered everything. Since the journey had been completed successfully, there were not any obstacles to them anymore. They were free to live as they wanted, especially Wall-e. Since he wanted to experience love and hold by a loved one, now he is free to live.</p>
+<iframe id="freedomvideo" width="560" height="315" src="https://www.youtube.com/embed/VFx0l1idfZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<script>
+    $(document).ready(function () {
+        $('.img').on({
+            click: function () {
+                var URL = $(this).attr("src");
+                $("#mainimg").fadeOut(1000, function () {
+                    $(this).attr("src", URL);
+                }).fadeIn(1000);
+            },
+            mouseover: function () {
+                $(this).animate({
+                    height: '200px',
+                    width: '200px',
+                })
+            },
+            mouseout: function () {
+                $(this).animate({
+                    height: '139px',
+                    width: '139px'
+                });
+            }
+
+        });
+    });
+</script>
+</body>
+</html>
