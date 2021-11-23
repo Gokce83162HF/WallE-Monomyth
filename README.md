@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -35,7 +35,7 @@
 <img src="Photos-Wall/monomyth2.png" width="500" height="450" align="center">
 </div>
 <h2 id="squid">Wall-E in Squid Game- Fun short animation:)</h2>
-<iframe id="squidvideo"width="560" height="315" src="https://www.youtube.com/embed/WeTXBEIGe1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/embed/WeTXBEIGe1Y
 <hr>
 <footer>
 <p>* You can find extra information about Wall-E on this <a href="https://pixar.fandom.com/wiki/WALL%E2%80%A2E">page.</a></p>
