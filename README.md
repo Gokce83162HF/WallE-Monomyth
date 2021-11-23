@@ -1,1 +1,85 @@
-# WallE-Monomyth
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wall-E Separation</title>
+    <link rel="stylesheet" type="text/css" href="Wall-E.css">
+    <div id="title">
+        <h2>Wall-E Monomyth <img src ="Photos-Wall/capsule_616x353.jpg" width="250" height="100" align="center"></h2>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div id="menubar">
+        <ul id="menulist">
+            <li class="menuitem"><a href="Wall-E.html">Home Page</a></li>
+            <li  class="menuitem"><a href="Wall-E Cycle.html">Wall-E Monomyth Cyle</a></li>
+            <li class="menuitem"><a href="Wall-E Separation.html">Wall-E Separation Phase</a></li>
+            <li class="menuitem"><a href="Wall-E Initiation.html">Wall-E Initiation Phase</a></li>
+            <li class="menuitem"><a href="Wall-E Return.html">Wall-E Return Phase</a></li>
+        </ul>
+    </div>
+</div>
+<div>
+    <h2 id="h21">The Ordinary World</h2>
+<p id="p1">Wall-E is the protagonist in the movie. He is a robot dedicated to cleaning the trash from the  Earth’s surface.
+    Since other wall-e robots are broken, there is only Wall-e and the bug in the whole world. Wall-e’s days are passing by collecting interesting stuff. Although he is a robot, he has feelings. While he is watching an old tape about a musical movie, he gets emotional.</p>
+<br><iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/QHH3iSeDBLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2 id="h22">1.Call To Adventure</h2>
+<p id="p2">While our hero Wall-e works as usual, he saw a red light on the ground. This red light was the call for an adventure. Wall-e started to follow this red light like following the white rabbit down to the rabbit hole like in Alice in Wonderland. Eventually, this red light stopped and followed by more lights and shakings. The other robot character EVE has arrived after these red lights and their story also has started. </p>
+   <br> <iframe id="youtube1" width="560" height="315" src="https://www.youtube.com/embed/xs6TmbvHgkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2 id="h23">2.Refusal Of the Call</h2>
+    <p id="p3">
+        We believe that there is no clear refusal in the movie.When EVE comes to Earth, she has a task to do. Her task is to find plants, so she starts to research garbage. When she saw something that moved, she started to shoot without looking at it. Even though Wall-E was curious about EVE, he didn't accept the call for a little while. Even he hid himself from EVE behind a rock.
+    <br>
+        <img src="Photos-Wall/wall-e%20refusal.png" width="560" height="315" align="center">
+    </p>
+
+    <h2 id="h24">3.Crossing the First Threshold</h2>
+    <p id="p4">
+        In time they became friends, but when Wall-e gave the plant to her. After she saw the plant, she got the plant and closed herself automatically. She completed her task. When she closed, Wall-e tried to communicate with her. Unfortunately he couldn’t speak with her, because EVE realized her reason for coming. Wall-E thought that her battery was dead and took her to the roof of the ship. Of course that didn’t work because she is closed to protect the plant. After she completed her task, the spaceship came to take her to the main ship where people live. Wall-e was far away at that moment, but he ran to catch the spaceship. With that spaceship, he left his routine life willingly. Eventually he crossed the threshold.
+    </p>
+        <br>   <iframe id="youtube2" width="560" height="315" src="https://www.youtube.com/embed/O-d8BJ2iljc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <h2 id="h25">4.Belly of the Whale</h2>
+    <p id="p5">
+        At the first encounter with EVE, Wall-e was scared from EVE and EVE’s weapons. As the movie continued we saw that Wall-E’s willingness to go after EVE increased, at the same time Wall-E's courage started to show itself. At the scene of Wall-E and Eve  were sent to a repair room for cleaning and repairing, we thought that the belly of the whale had started in this scene. In this scene, Wall-E thought that Eve was tortured. This gave him the courage to save Eve. For us, this is the belly of the whale in the movie. Wall-e had the courage to come after EVE at the scene of crossing the first threshold, but this courage wasn’t against someone or some robot. In the scene, it could be seen that Wall-e took the weapon which he was scared of at first. This is an obvious change at Wall-e’s self.
+       <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nP6l6INN2rg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.img').on({
+            click: function () {
+                var URL = $(this).attr("src");
+                $("#mainimg").fadeOut(1000, function () {
+                    $(this).attr("src", URL);
+                }).fadeIn(1000);
+            },
+            mouseover: function () {
+                $(this).animate({
+                    height: '200px',
+                    width: '200px',
+                })
+            },
+            mouseout: function () {
+                $(this).animate({
+                    height: '139px',
+                    width: '139px'
+                });
+            }
+
+        });
+    });
+    $
+</script>
+</body>
+</html>
